@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+*{
+  font-family: 'Montserrat', sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.crossed{
+  text-decoration: line-through;
+  background:pink;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul, li{
+  list-style-type: none;
+  padding:8px;
+  margin:0px;
+  color:black;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+li{
+  background-color:white;
+}
+form{
+ margin:100px;
+ border: 1px solid black; 
+ border-radius:20px;
+ padding:40px;
+ background:rgba(14,14,14,0.5)
+}
+body{
+  display:flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-image: url(https://images.unsplash.com/photo-1456324504439-367cee3b3c32?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
-.App-link {
-  color: #61dafb;
+input{
+  padding:10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button{
+  margin:5px;
+  display:flex; 
+}
+button{
+  flex:1;
+  padding:8px;
+}
+.add{
+background-color:bisque;
+border:none;
+}
+.clear{
+  background-color:blanchedalmond;
+  border:none;
+}
+h1{
+  color:white;
 }
